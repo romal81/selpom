@@ -1,0 +1,8 @@
+<suite name="Suite One" >
+ <parameter name="appUrl" value="http://www.adactin.com/HotelApp/"/>
+ <test name="test">
+     <classes>
+         <class name="testcases.TestAdactinLogin"/>
+     </classes>
+ </test>
+ </suite>
