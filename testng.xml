@@ -3,6 +3,7 @@
  <test name="test">
      <classes>
          <class name="testcases.TestAdactinLogin"/>
+         <class name="testcases.TestAdactinInvalidLogin"/>
      </classes>
  </test>
  </suite>

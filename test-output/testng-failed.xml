@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite One]">
+  <parameter name="appUrl" value="http://www.adactin.com/HotelApp/"/>
+  <test name="test(failed)">
+    <classes>
+      <class name="testcases.TestAdactinInvalidLogin">
+        <methods>
+          <include name="testInvalidLogin" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- testcases.TestAdactinInvalidLogin -->
+      <class name="testcases.TestAdactinLogin">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- testcases.TestAdactinLogin -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite One] -->
